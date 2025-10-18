@@ -27,9 +27,9 @@ module my_coin::my_coin {
 
         let (treasury_cap, metadata) = coin::create_currency(
             otw, 9,
-            b"MC",
-            b"My Coin",
-            b"My First Ever Coin",
+            b"MoC",
+            b"Mora Coin",
+            b"Mora Coin, minted by Morax, Archon of the Geo Element",
             option::some(url),
             ctx
         );
